@@ -12,7 +12,7 @@ import operator
 import re
 import time
 
-from weekcalc import calc
+import weekcalc
 
 # print(data)
 def is_Chinese(word):
@@ -36,7 +36,7 @@ def judge(lst):
         lst[1] = lst[1][1:]
 
 def handle(data):
-    now_week = calc()
+    now_week = weekcalc.calc()
     classes = [[], [], [], [], [], [], [], []]
     hanja = ['', '一', '二', '三', '四', '五', '六', '日']
     #data = open("E:\\website\\timetableocr\\class.json", encoding='utf-8').read()
