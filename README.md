@@ -20,7 +20,7 @@ Note: You should add your own tencent cloud api certification to [main.py](https
 ## 如何获得一份可以识别的课表
 
 1. 在微信公众号：武汉理工教务处中，截取课程表。
-   ![IMG_1](1.PNG)
+   ![IMG_1](1.PNG){:height="100" width="100"}
 2. 裁剪课表到仅保留课表内容。![IMG_2](2.PNG)
 3. 使用图片编辑程序调整鲜明度为100，对比度为-100，清晰度为100。![IMG_3](3.PNG)
 4. 上传文件到[此处](http://oken.club:81/upload)
