@@ -25,7 +25,8 @@ Note: You should add your own tencent cloud api certification to [main.py](https
    <br /><img src="https://github.com/AStogov/timetableocr/blob/master/2.PNG" width="40%" alt=""/>
 3. 使用图片编辑程序调整鲜明度为100，对比度为-100，清晰度为100。
    <br /><img src="https://github.com/AStogov/timetableocr/blob/master/3.PNG" width="40%" alt=""/>
-4. 上传文件到[此处](http://oken.club:81/upload)
+4. 压缩图片到200KB左右（腾讯云OCR无法下载大文件）
+5. 上传文件到[此处](http://oken.club:81/upload)
 
 
 
