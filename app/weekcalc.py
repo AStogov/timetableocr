@@ -1,5 +1,5 @@
 import time
-import st_day
+from app import st_day
 l = st_day.s.split('/')
 #print(l)
 days = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]

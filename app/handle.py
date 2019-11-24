@@ -12,7 +12,7 @@ import operator
 import re
 import time
 
-from weekcalc import calc
+from app.weekcalc import calc
 
 # print(data)
 def is_Chinese(word):
@@ -44,6 +44,7 @@ def handle(data):
     for i in data['TextDetections']:
         for key, value in i.items():
             if key == "Text" and value != "" and is_Chinese(value):
+                value = re.sub(r'[,\._\|\/\\]+', "", value)
                 # print(value)
                 #print(i["ColTl"], i["RowTl"])
                 lst = list(value.split("@"))
