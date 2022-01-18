@@ -1,5 +1,5 @@
 # Time Table OCR
-This is an ocr application to analysis school's timetable.
+This is an ocr application to analyze school's timetable.
 
 [Click here](http://oken.club:81/upload) to see how this application works (badly). (Attention: Django debug mode is on)
 
